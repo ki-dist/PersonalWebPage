@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Form with Video and Audio</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+      <br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <br /><br />
+      <label >Video:</label>
+      <video id="video" controls>
+        <source src="video.mp4" type="video/mp4" />
+      </video>
+      <br /><br />
+
+      <label >Audio:</label>
+      <audio id="audio" controls>
+        <source src="audio.mp3" type="audio/mp3" />
+      </audio>
+      <br /><br />
+    </form>
+  </body>
+</html>
